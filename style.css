@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin-top: 15px;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: none;
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    background-color: #1F2937;
+    padding: 20px 300px 150px;
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header .logo{
+    font-size: 28px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:25px;
+
+}
+.header p, .header ul li,.header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header .hero{
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+}
+.header .hero .content{
+    padding-top: 10px;
+    padding-right: 110px;
+}
+.hero img{
+    flex-basis: 57%;
+    flex-shrink: 0;
+    overflow: hidden;
+    height: fit-content;
+}
+.information{
+    padding: 50px 350px 150px;
+    text-align: center;
+}
+.information h2{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder ;
+    color:#1F2937;
+}
+.information .square{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+.information p{
+    margin-top: 10px;
+    width: 200px;
+}
+.information .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+.quote{
+    padding: 50px 487px 150px;
+    background-color: #E5e7eb;
+}
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.quote .sig{
+    text-align: right;
+    font-size: 20px;
+}
