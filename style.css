@@ -93,7 +93,7 @@ button{
     gap: 50px
 }
 .quote{
-    padding: 50px 487px 150px;
+    padding: 50px 487px ;
     background-color: #E5e7eb;
 }
 .quote .text{
@@ -104,4 +104,34 @@ button{
 .quote .sig{
     text-align: right;
     font-size: 20px;
+
+}
+.call-to-action{
+    padding: 100px 300px ;
+    color:#E5E7EB
+}
+.call-to-action .card{
+    border-radius: 15px;
+    background-color: #3882F6;
+    padding:50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-to-action button{
+    border-radius: 14px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    padding: 4px 40px;
+    font-size: 20px;
+}
+.call-to-action p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer{
+    padding: 35px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
 }
